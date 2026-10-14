@@ -1,0 +1,6 @@
+.venv/
+.ebcli-venv/
+.git/
+__pycache__/
+*/__pycache__/
+db.sqlite3
