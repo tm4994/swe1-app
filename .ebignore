@@ -1,6 +1,8 @@
 .venv/
 .ebcli-venv/
 .git/
+.elasticbeanstalk/
+.env
 __pycache__/
 */__pycache__/
 db.sqlite3
