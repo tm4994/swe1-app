@@ -2,6 +2,8 @@
 .ebcli-venv/
 __pycache__/
 *.py[cod]
+.coverage
+htmlcov/
 db.sqlite3
 .env
 .elasticbeanstalk/
