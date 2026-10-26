@@ -31,6 +31,7 @@ class PollsViewTests(TestCase):
         response = self.client.get(reverse("polls:index"))
 
         self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "<h1>Polls</h1>", html=True)
         self.assertEqual(len(response.context["latest_question_list"]), 5)
         self.assertEqual(
             list(response.context["latest_question_list"]),
