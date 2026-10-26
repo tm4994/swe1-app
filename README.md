@@ -30,6 +30,7 @@ Enable `tm4994/swe1-app` in [Travis CI](https://app.travis-ci.com/github/tm4994/
 Pull requests and pushes run formatting, lint, tests, and coverage checks. A
 successful push to `master` deploys to the `swe1-app-env` Elastic Beanstalk
 environment in `us-east-1`.
+Pull request builds run CI checks without deploying the application.
 
 Set these environment variables in the Travis repository settings. Keep the AWS
 credentials out of the repository:
